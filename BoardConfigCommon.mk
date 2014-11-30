@@ -82,7 +82,11 @@ BOARD_SEPOLICY_UNION += \
     file.te \
     radio.te \
     rild.te \
+    sct.te \
     sensors.te \
+    suntrold.te \
+    tad.te \
+    ta_qmi.te \
     tee.te \
     time_daemon.te \
     wpa.te \
