@@ -80,6 +80,7 @@ BOARD_SEPOLICY_UNION += \
     device.te \
     domain.te \
     file.te \
+    location.te \
     mpdecision.te \
     radio.te \
     rild.te \
