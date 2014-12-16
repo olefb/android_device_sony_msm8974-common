@@ -91,6 +91,7 @@ BOARD_SEPOLICY_UNION += \
     tad.te \
     ta_qmi.te \
     tee.te \
+    thermanager.te \
     time_daemon.te \
     wpa.te \
     file_contexts \
