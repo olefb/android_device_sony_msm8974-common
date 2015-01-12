@@ -84,7 +84,10 @@ BOARD_SEPOLICY_UNION += \
     domain.te \
     file.te \
     location.te \
+    mediaserver.te \
+    mm-qcamerad.te \
     mpdecision.te \
+    property.te \
     radio.te \
     rild.te \
     sct.te \
@@ -98,7 +101,8 @@ BOARD_SEPOLICY_UNION += \
     time_daemon.te \
     wpa.te \
     file_contexts \
-    genfs_contexts
+    genfs_contexts \
+    property_contexts
 
 # Time
 BOARD_USES_QC_TIME_SERVICES := true
